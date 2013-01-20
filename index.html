@@ -63,7 +63,7 @@
 			        	$.ajax("http://localhost:8070/"+(last.num-1)+"/info.0.json", {
 							dataType: "jsonp",
 							success: function(data) {
-								add_image(data, 4)
+								add_image(data, 1)
 							}
 						});		
 			        }
@@ -80,6 +80,8 @@
 				});		
 			} else {
 				loading = false;
+				console.log(instance)
+
 			}
 		}
 		
@@ -95,15 +97,9 @@
 </head>
 <body>
 
-<div id="Header">
-	<!-- <a href="http://www.codecomputerlove.com"><img src="images/codecomputerlovelogo.gif" width="230" height="48" alt="Code Computerlove" /></a> -->
-</div>
 
 <div id="MainContent">
 
-	<div class="page-content">
-		<h1>XKCD</h1>
-	</div>
 	
 	<ul id="Gallery" class="gallery">
 		<!--
@@ -130,10 +126,6 @@
 	
 </div>	
 
-	
-<div id="Footer">
-	<p><small>&copy; me and you when we where at Firefox OS App Days</small></p>
-</div>
 
 </body>
 </html>
