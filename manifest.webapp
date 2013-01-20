@@ -1,0 +1,13 @@
+{
+  "name": "XKCD Firefox OS App",
+  "description": "Best way to browse XKCD",
+  "launch_path": "/",
+  "icons": {
+    "100": "/images/icon-100.png"
+  },
+  "developer": {
+    "name": "Him and Me",
+    "url": "http://xkcd.com"
+  },
+  "default_locale": "en"
+}

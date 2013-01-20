@@ -1,0 +1,18 @@
+CACHE MANIFEST 
+#version .01
+
+CACHE:
+/css/jquery-mobile.css
+/css/photoswipe.css
+/css/styles.css
+/images/error.gif
+/images/icon-100.png
+/images/icons.png
+/images/icons@2x.png
+/images/loader.gif
+/lib/code.photoswipe-3.0.5.min.js
+/lib/jquery-1.9.0.min.js
+/lib/klass.min.js
+
+NETWORK: 
+*
